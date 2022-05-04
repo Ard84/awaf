@@ -43,17 +43,7 @@
               "field": "Microsoft.Security/pricings/pricingTier",
               "equals": "Standard"
             },
-            "deployment": {
-              "location": "westeurope",
-              "properties": {
-                "mode": "incremental",
-                "parameters": {},
-                "template": {
-                  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
-                  "contentVersion": "1.0.0.0",
-                  "parameters": {},
-                  "variables": {},
-                  "resources": [
+            "resources": [
                     {
                       "type": "Microsoft.Security/pricings",
                       "apiVersion": "2018-06-01",
@@ -67,9 +57,6 @@
                 }
               }
             }
-          }
-        }
-      }
     },
     "id": "/providers/Microsoft.Authorization/policyDefinitions/b7021b2b-08fd-4dc0-9de7-3c6ece09faf9",
     "name": "b7021b2b-08fd-4dc0-9de7-3c6ece09faf9"
